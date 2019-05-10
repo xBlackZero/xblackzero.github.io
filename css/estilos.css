@@ -1,0 +1,47 @@
+body {
+	background: url(../img/bg.jpg); 
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Knewave';
+	text-align: center;
+	text-shadow: 5px 5px 5px #000;
+	color:#fff;
+}
+
+h1 {
+	font-size: 30px;
+	position: absolute;
+    margin: auto;
+    top: 55%;
+    left: 0;
+    right: 0;
+	bottom: 0;
+}
+
+h2 {
+	font-size: 20px;
+	position: absolute;
+    margin: auto;
+    top: 65%;
+    left: 0;
+    right: 0;
+	bottom: 0;
+}
+
+img:hover{
+	filter: none;
+}
+
+img {
+	filter: grayscale(100%);
+	display: block;
+	position: absolute;
+	height:150px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+	border-radius:50%;
+	border:5px solid white;
+}
